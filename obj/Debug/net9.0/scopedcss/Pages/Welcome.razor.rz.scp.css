@@ -1,0 +1,28 @@
+.inputRadio[b-zpd79d8zcd] {
+    color: white;
+}
+
+[b-zpd79d8zcd] [type="radio"] {
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+
+h1[b-zpd79d8zcd] {
+    color: white;
+    font-size: 70px;
+}
+
+p[b-zpd79d8zcd] { 
+    color: white;
+    font-size: 25px;
+}
+
+label[b-zpd79d8zcd] {
+    color: white;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+button[b-zpd79d8zcd] {
+    margin-top: 100px;
+}

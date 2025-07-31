@@ -1,0 +1,28 @@
+.inputRadio {
+    color: white;
+}
+
+::deep [type="radio"] {
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+
+h1 {
+    color: white;
+    font-size: 70px;
+}
+
+p { 
+    color: white;
+    font-size: 25px;
+}
+
+label {
+    color: white;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+button {
+    margin-top: 100px;
+}

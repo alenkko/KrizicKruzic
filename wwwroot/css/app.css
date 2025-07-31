@@ -1,0 +1,22 @@
+body {
+    background-color: #000A39;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+
+button {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    font-size: 25px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
