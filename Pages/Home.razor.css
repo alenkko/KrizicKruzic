@@ -46,3 +46,20 @@ h3 {
 button {
     font-size: 20px;
 }
+
+.alertWindow {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.85);
+    z-index: 9999;
+    font-size: 25px;
+}
+
+.alertWindow button {
+    font-size: 15px;
+}

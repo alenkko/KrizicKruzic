@@ -4,28 +4,19 @@
 <PageTitle>Krizic Kruzic</PageTitle>
 
 <h1>Welcome</h1>
-<p>Select the number of players:</p>
 <EditForm Model="@this" OnValidSubmit="OnSubmit">
+    <p>Select the number of players:</p>
     <InputRadioGroup @bind-Value="numOfPlayers">
-        <label class="inputRadio">
-        <InputRadio Value="1" /> 1
-        </label>
-        <label class="inputRadio">
-        <InputRadio Value="2" /> 2
-        </label>
+        <label class="inputRadio"><InputRadio Value="1" /> 1</label>
+        <label class="inputRadio"><InputRadio Value="2" /> 2</label>
     </InputRadioGroup>
     <p>Select the symbol for player one:</p>
     <InputRadioGroup @bind-Value="symbolPlayerOne">
-        <label class="inputRadio">
-        <InputRadio Value="@("X")" /> X
-        </label>
-        <label class="inputRadio">
-        <InputRadio Value="@("O")" /> O
-        </label>
+        <label class="inputRadio"><InputRadio Value="@("X")" /> X</label>
+        <label class="inputRadio"><InputRadio Value="@("O")" /> O</label>
     </InputRadioGroup>
     <button type="submit">PLAY</button>
 </EditForm>
-
 
 @code {
     private int numOfPlayers { get; set; } = 1;       
